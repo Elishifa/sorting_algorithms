@@ -23,25 +23,25 @@ void swap_ints(int *j, int *k)
 void bubble_sort(int *array, size_t size)
 {
 	size_t t = 0, len;
-	bool bubble;
+	bool bubbley;
 
 	len = size;
-	bubble = false;
+	bubbley = false;
 
 
 	if (array == NULL || size < 2)
 		return;
 
-	while (bubbly == false)
+	while (bubbley == false)
 	{
-		bubbly = true;
+		bubbley = true;
 		for ( ; t < len - 1; t++)
 		{
-			if (array[t] > array[t + 1]
+			if (array[t] > array[t + 1])
 			{
 				swap_ints(array + t, array + t + 1);
 				print_array(array, size);
-				bubbly = false;
+				bubbley = false;
 			}
 		}
 		len--;
