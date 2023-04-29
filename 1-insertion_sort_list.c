@@ -30,10 +30,9 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *iter, *insert, *tmp;
 
-	iter = tmp
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
-
+	
 	for (iter = (*list)->next; iter != NULL; iter = tmp)
 	{
 		tmp = iter->next;
